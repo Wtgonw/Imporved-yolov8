@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ade3c4b-a3b7-47ed-9684-7dad01860ede" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ultralytics_main$test.coverage" NAME="test Coverage Results" MODIFIED="1710823364465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main$yolo_txt_to_voc_xml.coverage" NAME="yolo-txt_to_voc-xml Coverage Results" MODIFIED="1710849421552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ultralytics/cfg/datasets/VOCdevkit" />
+    <SUITE FILE_PATH="coverage/ultralytics_main$block.coverage" NAME="block Coverage Results" MODIFIED="1709730279065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ultralytics/nn/modules" />
+    <SUITE FILE_PATH="coverage/ultralytics_main$mhsa.coverage" NAME="mhsa Coverage Results" MODIFIED="1711448471625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ultralytics/nn/modules/MHSA" />
+    <SUITE FILE_PATH="coverage/ultralytics_main$main.coverage" NAME="main Coverage Results" MODIFIED="1712635766008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ultralytics_main$split_data.coverage" NAME="split_data Coverage Results" MODIFIED="1710856379200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ultralytics/cfg/datasets/VOCdevkit" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>space_to_depth</find>
+      <find>BottleneckCSP</find>
+      <find>CSPS</find>
+      <find>CSP</find>
+      <find>BaseModel</find>
+      <find>_conv_filter</find>
+      <find>CSPStage</find>
+      <find>FormerDetect</find>
+      <find>CLL</find>
+      <find>CLLADetect,</find>
+      <find>CLLADetect</find>
+      <find>self.det</find>
+      <find>MyConcat</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/CustomDark [2].yaml" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/CustomDark [3].yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/datasets/CustomDark.yaml" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/main [5].py" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v8/MyDark/yolov8s+MyDark+AFPN.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/datasets/VisDrone.yaml" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/main [8].py" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+P234+CLLADetect.yaml" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/main [9].py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/yolov5su+VisDrone+FormerDetect.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+FormerDetect.yaml" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/main [10].py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/yolov5su+VisDrone+FormerDetect [2].yaml" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/main [11].py" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov8s_visdrone+MHSADetect.yaml" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/head [2].py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/__init__ [4].py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/tasks [4].py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/mhsa.py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/head [4].py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/mhsa [2].py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/main [12].py" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+P45+MHSADetect.yaml" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/yolov5su+VisDrone+P2345+MHSADetect.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v8/visdrone/yolov8s+spd_conv.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+spd_conv+MHSADetect.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+spd_conv+P234MHSADetect.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+MyConcat+P234MHSADetect.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+spd_conv+MyConcat+P234MHSADetect.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/nn/modules/MHSA/mhsa.py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/head [7].py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/head [8].py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/yolov5su+VisDrone+spd_conv+MyConcat+P234MHSADetect.yaml" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/default.yaml" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/main [14].py" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+P34+MHSADetect.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+CLLADetect.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+MHSADetect.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+P2345+MHSADetect.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+P234+MHSADetect.yaml" />
+        <option value="$PROJECT_DIR$/ultralytics/engine/trainer.py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/head.py" />
+        <option value="$USER_HOME$/.conda/envs/yolov8/Lib/site-packages/torch/utils/_contextlib.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/block.py" />
+        <option value="$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/main.py" />
+        <option value="$PROJECT_DIR$/ultralytics/nn/modules/block.py" />
+        <option value="$PROJECT_DIR$/ultralytics/nn/modules/__init__.py" />
+        <option value="$PROJECT_DIR$/ultralytics/nn/modules/head.py" />
+        <option value="$PROJECT_DIR$/ultralytics/nn/tasks.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="100" />
+    <option name="y" value="28" />
+    <option name="width" value="1723" />
+    <option name="height" value="1009" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ultralytics-main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ultralytics-main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ultralytics-main\ultralytics\nn\modules" />
+      <recent name="D:\Environment\paper\ultralytics-main\ultralytics\cfg\models\v5\visdrone" />
+      <recent name="D:\Environment\paper\ultralytics-main\ultralytics\cfg\models\v8\MyDark" />
+      <recent name="D:\Environment\paper\ultralytics-main\ultralytics\cfg\datasets" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ultralytics-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mhsa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ultralytics-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ultralytics/nn/modules/MHSA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ultralytics/nn/modules/MHSA/mhsa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="split_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ultralytics-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ultralytics/cfg/datasets/VOCdevkit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ultralytics/cfg/datasets/VOCdevkit/split_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ultralytics-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yolo-txt_to_voc-xml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ultralytics-main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ultralytics/cfg/datasets/VOCdevkit" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ultralytics/cfg/datasets/VOCdevkit/yolo-txt_to_voc-xml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.mhsa" />
+        <item itemvalue="Python.split_data" />
+        <item itemvalue="Python.yolo-txt_to_voc-xml" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ade3c4b-a3b7-47ed-9684-7dad01860ede" name="Default Changelist" comment="" />
+      <created>1704865473298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704865473298</updated>
+      <workItem from="1704865475360" duration="1428000" />
+      <workItem from="1709284382496" duration="1226000" />
+      <workItem from="1709357980475" duration="5547000" />
+      <workItem from="1709445269555" duration="368000" />
+      <workItem from="1709447790991" duration="291000" />
+      <workItem from="1709471498256" duration="707000" />
+      <workItem from="1709543586546" duration="764000" />
+      <workItem from="1709724033668" duration="5324000" />
+      <workItem from="1709963241234" duration="789000" />
+      <workItem from="1710121736857" duration="48000" />
+      <workItem from="1710220478200" duration="18000" />
+      <workItem from="1710220506253" duration="5000" />
+      <workItem from="1710220532699" duration="3060000" />
+      <workItem from="1710226956716" duration="29124000" />
+      <workItem from="1711071834382" duration="1904000" />
+      <workItem from="1711099634183" duration="3325000" />
+      <workItem from="1711162610880" duration="6374000" />
+      <workItem from="1711246373664" duration="24873000" />
+      <workItem from="1711870413624" duration="4000" />
+      <workItem from="1712499223707" duration="423000" />
+      <workItem from="1712629617461" duration="7950000" />
+      <workItem from="1716972942603" duration="70000" />
+      <workItem from="1716973028280" duration="37000" />
+      <workItem from="1716973074973" duration="40000" />
+      <workItem from="1717058434077" duration="32000" />
+      <workItem from="1717309702152" duration="1168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="94899000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="100" y="28" width="1723" height="1009" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19603127" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.57225436" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.57109827" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3283237" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32947975" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Eval Reset" order="13" weight="0.3298122" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/models/fastsam/predict.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/predictor.py</url>
+          <line>193</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.conda/envs/yolov8/Lib/site-packages/torch/utils/_contextlib.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/predictor.py</url>
+          <line>274</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ultralytics/engine/predictor.py</url>
+          <line>275</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>self.args.show</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ultralytics/cfg/models/v8/visdrone/yolov8s_P234+MyConcat.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+spd_conv+MyConcat+P234MHSADetect.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/head [5].py" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/head [6].py" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/head [7].py" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/head [8].py" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/yolov5su+VisDrone+spd_conv+MyConcat+P234MHSADetect.yaml" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/default.yaml" />
+    <entry file="file://$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+MyConcat+P234MHSADetect.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+P34+MHSADetect.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+P234+CLLADetect.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+CLLADetect.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+P45+MHSADetect.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="50" column="3" lean-forward="true" selection-start-line="50" selection-start-column="3" selection-end-line="50" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+MHSADetect.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+P2345+MHSADetect.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="57" column="25" lean-forward="true" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/main [14].py" />
+    <entry file="file://$PROJECT_DIR$/ultralytics/engine/trainer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3775">
+          <caret line="489" column="23" selection-start-line="489" selection-start-column="23" selection-end-line="489" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/cfg/models/v5/visdrone/yolov5su+VisDrone+P234+MHSADetect.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/models/yolo/detect/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="115" column="15" selection-start-line="115" selection-start-column="15" selection-end-line="115" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/utils/plotting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="287" column="27" lean-forward="true" selection-start-line="287" selection-start-column="27" selection-end-line="287" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/head.py" />
+    <entry file="file://$PROJECT_DIR$/ultralytics/utils/autobatch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/utils/benchmarks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5670" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/checks.py" />
+    <entry file="file://$PROJECT_DIR$/ultralytics/utils/checks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/models/fastsam/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/models/yolo/detect/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#41#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/models/yolo/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1581927762/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1573">
+          <caret line="3763" column="8" selection-start-line="3763" selection-start-column="8" selection-end-line="3763" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/yolov8/Lib/site-packages/torch/utils/_contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/args [2].yaml" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/args.yaml" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/args [3].yaml" />
+    <entry file="file://$USER_HOME$/Desktop/common.py" />
+    <entry file="file://$USER_HOME$/Desktop/yolo.py" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/block.py" />
+    <entry file="file://$USER_HOME$/Desktop/modules.py" />
+    <entry file="file://$USER_HOME$/Documents/NetSarang Computer/6/Xftp/Temporary/main.py" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/ultralytics/cfg/models/v8/yolov8.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/nn/modules/MHSA/mhsa.py" />
+    <entry file="file://$PROJECT_DIR$/ultralytics/engine/predictor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4492">
+          <caret line="274" column="67" selection-start-line="274" selection-start-column="67" selection-end-line="274" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/engine/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2754">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/nn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/nn/modules/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#295#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/nn/modules/block.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2358">
+          <caret line="360" column="44" lean-forward="true" selection-start-line="360" selection-start-column="44" selection-end-line="360" selection-end-column="44" />
+          <folding>
+            <element signature="e#40#61#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/nn/modules/conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#40#67#1" />
+            <element signature="e#148#326#0" />
+            <element signature="e#392#655#0" />
+            <element signature="e#685#1547#0" />
+            <element signature="e#922#1261#0" />
+            <element signature="e#1297#1420#0" />
+            <element signature="e#1461#1547#0" />
+            <element signature="e#1573#2635#0" />
+            <element signature="e#1702#1944#0" />
+            <element signature="e#1980#2117#0" />
+            <element signature="e#2158#2287#0" />
+            <element signature="e#2323#2635#0" />
+            <element signature="e#2670#3209#0" />
+            <element signature="e#2670#2834#1" />
+            <element signature="e#2896#3089#0" />
+            <element signature="e#3125#3209#0" />
+            <element signature="e#3236#3451#0" />
+            <element signature="e#3387#3451#0" />
+            <element signature="e#3503#3724#0" />
+            <element signature="e#3661#3724#0" />
+            <element signature="e#3763#4626#0" />
+            <element signature="e#3926#4291#0" />
+            <element signature="e#4327#4467#0" />
+            <element signature="e#4508#4626#0" />
+            <element signature="e#4657#5163#0" />
+            <element signature="e#4822#4941#0" />
+            <element signature="e#5010#5163#0" />
+            <element signature="e#5198#5727#0" />
+            <element signature="e#5370#5541#0" />
+            <element signature="e#5577#5727#0" />
+            <element signature="e#5760#9580#0" />
+            <element signature="e#5760#5950#1" />
+            <element signature="e#6101#6546#0" />
+            <element signature="e#6587#6646#0" />
+            <element signature="e#6682#6821#0" />
+            <element signature="e#6873#7150#0" />
+            <element signature="e#7209#7333#0" />
+            <element signature="e#7382#8492#0" />
+            <element signature="e#7474#7702#0" />
+            <element signature="e#7764#8343#0" />
+            <element signature="e#7815#8121#0" />
+            <element signature="e#8528#9580#0" />
+            <element signature="e#9622#10052#0" />
+            <element signature="e#9782#9944#0" />
+            <element signature="e#10010#10052#0" />
+            <element signature="e#10094#10725#0" />
+            <element signature="e#10174#10492#0" />
+            <element signature="e#10528#10725#0" />
+            <element signature="e#10755#11154#0" />
+            <element signature="e#10869#11004#0" />
+            <element signature="e#11040#11154#0" />
+            <element signature="e#11186#11528#0" />
+            <element signature="e#11285#11404#0" />
+            <element signature="e#11440#11528#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/nn/modules/head.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#40#66#1" />
+            <element signature="e#667#724#0" />
+            <element signature="e#697#724#0" />
+            <element signature="e#754#871#0" />
+            <element signature="e#782#800#0" />
+            <element signature="e#836#871#0" />
+            <element signature="e#983#1308#0" />
+            <element signature="e#1030#1114#0" />
+            <element signature="e#1178#1308#0" />
+            <element signature="e#1353#1418#0" />
+            <element signature="e#1383#1418#0" />
+            <element signature="e#1450#1758#0" />
+            <element signature="e#1483#1698#0" />
+            <element signature="e#1734#1758#0" />
+            <element signature="e#1789#5155#0" />
+            <element signature="e#2076#2870#0" />
+            <element signature="e#2906#4544#0" />
+            <element signature="e#3236#3358#0" />
+            <element signature="e#3568#3647#0" />
+            <element signature="e#3907#4451#0" />
+            <element signature="e#3907#4014#0" />
+            <element signature="e#4579#5155#0" />
+            <element signature="e#4714#4815#0" />
+            <element signature="e#5009#5155#0" />
+            <element signature="e#5184#6317#0" />
+            <element signature="e#5298#5784#0" />
+            <element signature="e#5820#6317#0" />
+            <element signature="e#6343#8234#0" />
+            <element signature="e#6454#6944#0" />
+            <element signature="e#6980#7443#0" />
+            <element signature="e#7490#8234#0" />
+            <element signature="e#7662#7905#0" />
+            <element signature="e#7932#8234#0" />
+            <element signature="e#8267#9010#0" />
+            <element signature="e#8446#8719#0" />
+            <element signature="e#8755#9010#0" />
+            <element signature="e#9048#17238#0" />
+            <element signature="e#9650#11262#0" />
+            <element signature="e#10017#10085#0" />
+            <element signature="e#11310#12801#0" />
+            <element signature="e#12913#13925#0" />
+            <element signature="e#12982#13614#0" />
+            <element signature="e#13972#14434#0" />
+            <element signature="e#14168#14346#0" />
+            <element signature="e#14522#16138#0" />
+            <element signature="e#14832#14849#0" />
+            <element signature="e#15856#15980#0" />
+            <element signature="e#16192#17238#0" />
+            <element signature="e#16287#16390#0" />
+            <element signature="e#16691#16852#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/nn/modules/transformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="119" column="34" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+          <folding>
+            <element signature="e#40#67#1" />
+            <element signature="e#323#526#0" />
+            <element signature="e#576#2823#0" />
+            <element signature="e#714#1452#0" />
+            <element signature="e#822#961#0" />
+            <element signature="e#1510#1604#0" />
+            <element signature="e#1699#2042#0" />
+            <element signature="e#2136#2484#0" />
+            <element signature="e#2574#2823#0" />
+            <element signature="e#2868#4176#0" />
+            <element signature="e#2972#3039#0" />
+            <element signature="e#3075#3387#0" />
+            <element signature="e#3500#4176#0" />
+            <element signature="e#4218#5008#0" />
+            <element signature="e#4373#4802#0" />
+            <element signature="e#4838#5008#0" />
+            <element signature="e#5050#5895#0" />
+            <element signature="e#5173#5574#0" />
+            <element signature="e#5610#5895#0" />
+            <element signature="e#5930#6252#0" />
+            <element signature="e#5995#6146#0" />
+            <element signature="e#6212#6252#0" />
+            <element signature="e#6281#6790#0" />
+            <element signature="e#6421#6624#0" />
+            <element signature="e#6660#6790#0" />
+            <element signature="e#6827#7526#0" />
+            <element signature="e#6827#7074#1" />
+            <element signature="e#7132#7294#0" />
+            <element signature="e#7330#7526#0" />
+            <element signature="e#7564#11977#0" />
+            <element signature="e#7564#7733#1" />
+            <element signature="e#7815#8683#0" />
+            <element signature="e#8726#9603#0" />
+            <element signature="e#9693#11977#0" />
+            <element signature="e#9693#10402#1" />
+            <element signature="e#11253#11510#0" />
+            <element signature="e#11553#11710#0" />
+            <element signature="e#12036#14080#0" />
+            <element signature="e#12036#12266#1" />
+            <element signature="e#12387#13058#0" />
+            <element signature="e#13123#13169#0" />
+            <element signature="e#13211#13345#0" />
+            <element signature="e#13463#14080#0" />
+            <element signature="e#14134#15944#0" />
+            <element signature="e#14134#14264#1" />
+            <element signature="e#14350#14580#0" />
+            <element signature="e#14903#15944#0" />
+            <element signature="e#15098#15882#0" />
+            <element signature="e#15359#15593#0" />
+            <element signature="e#15647#15754#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/nn/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11088">
+          <caret line="616" column="10" lean-forward="true" selection-start-line="616" selection-start-column="10" selection-end-line="616" selection-end-column="10" />
+          <folding>
+            <element signature="e#41#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralytics/cfg/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324" />
+      </provider>
+    </entry>
+  </component>
+</project>
