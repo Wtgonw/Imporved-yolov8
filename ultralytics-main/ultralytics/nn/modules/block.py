@@ -535,7 +535,7 @@ class MyConcat(nn.Module):
         ys.append(self.cv1(xs[1]) + ys[0])
         return torch.cat(ys, 1)
 
-class AdaptiveConcatDuoLianJie(nn.Module):
+class AdaptiveConcat(nn.Module):
     """Concatenate a list of tensors along dimension."""
 
     def __init__(self, inc, dimension):
